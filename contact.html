@@ -49,17 +49,22 @@
 				<h2>or send a message with this form</h2>
 			</div>
 
-			<form class="contact-form" action="POST" data-netlify="true">
+			<form
+				class="contact-form"
+				action="POST"
+				data-netlify="true"
+				name="contact"
+			>
 				<label for="name">Name</label>
 				<input
 					type="text"
 					placeholder="Who goes there?"
 					id="name"
-					name="Sender"
+					name="name"
 				/>
 				<label for="message">Message</label>
 				<textarea
-					name="Message"
+					name="message"
 					id="message"
 					cols="50"
 					rows="10"
