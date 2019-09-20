@@ -5,7 +5,7 @@ body {
 	margin: 0;
 	height: 100vh;
 	width: 100vw;
-	background-image: linear-gradient(rgba(64, 255, 239, 0.616), rgb(7, 37, 46)),
+	background-image: linear-gradient(rgba(64, 255, 239, 0.575), rgb(7, 37, 46)),
 		url("./bg-min.jpg");
 	background-size: cover;
 	background-position: center;
@@ -100,4 +100,26 @@ header {
 	background-color: rgba(51, 51, 51, 0.164);
 	padding: 3rem;
 	border-radius: 8px;
+}
+
+.project-section {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 70%;
+	width: 80%;
+	margin: 5rem auto;
+}
+
+.project-card {
+	background-color: rgba(139, 22, 22, 0.164);
+	height: 100%;
+	width: 30%;
+	text-align: center;
+	transition: transform 0.3s ease;
+	box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.281);
+}
+
+.project-card:hover {
+	transform: scale(1.04);
 }
