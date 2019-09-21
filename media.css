@@ -1,0 +1,41 @@
+@media (max-width: 500px) {
+	header {
+		justify-content: space-around;
+	}
+	.logo-link {
+		display: none;
+	}
+	.nav-ul {
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+	.nav-link {
+		font-size: 1rem;
+	}
+
+	.profile-pic {
+		height: 120px;
+		width: 120px;
+	}
+	.title-section {
+		margin: 2rem auto;
+	}
+	.title-title {
+		font-size: 1.8rem;
+	}
+
+	.title-headline {
+		font-size: 1rem;
+	}
+
+	.contact-section {
+		width: 100%;
+	}
+
+	.about-section {
+		width: 100%;
+		font-size: 1rem;
+		padding: 2rem;
+	}
+}
