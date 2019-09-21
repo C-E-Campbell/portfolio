@@ -5,9 +5,12 @@ body {
 	margin: 0;
 	height: 100vh;
 	width: 100vw;
-	background-image: linear-gradient(rgba(64, 255, 239, 0.575), rgb(7, 37, 46)),
+	background-image: linear-gradient(
+			rgba(64, 255, 239, 0.322),
+			rgba(131, 173, 185, 0.493)
+		),
 		url("./bg-min.jpg");
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-size: cover;
 	background-position: center;
 	font-family: "Open Sans", sans-serif;
@@ -102,7 +105,7 @@ header {
 	margin: 0 auto;
 	width: 60%;
 	font-size: 1.2rem;
-	background-color: rgba(51, 51, 51, 0);
+	background-color: rgba(51, 51, 51, 0.178);
 	padding: 3rem;
 	border-radius: 8px;
 }
