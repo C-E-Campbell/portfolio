@@ -8,10 +8,10 @@
 	.nav-ul {
 		padding: 0;
 		display: flex;
-		justify-content: center;
 	}
 	.nav-link {
 		font-size: 1rem;
+		text-align: center;
 	}
 
 	.profile-pic {
@@ -34,7 +34,8 @@
 	}
 
 	.about-section {
-		width: 100%;
+		margin: 0 auto;
+		width: 90%;
 		font-size: 1rem;
 		padding: 2rem;
 	}
@@ -55,5 +56,10 @@
 	}
 
 	.email-section {
+		width: 100%;
+	}
+
+	.email-section a {
+		font-size: 1rem;
 	}
 }
