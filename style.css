@@ -120,16 +120,39 @@ header {
 }
 
 .project-card {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	background-color: rgba(39, 35, 35, 0.363);
 	height: 100%;
 	width: 30%;
 	text-align: center;
-	transition: transform 0.3s ease;
 	box-shadow: 5px 5px 5px rgba(32, 42, 49, 0.322);
 }
+.project-card h1 {
+	font-size: 1.2rem;
+	color: #fc5d36;
+}
+.project-card img {
+	width: 70%;
+	border-radius: 8px;
+}
+.project-card ul {
+	font-size: 1rem;
+	list-style: none;
+	padding: 0;
+}
 
-.project-card:hover {
-	transform: scale(1.04);
+.project-card a {
+	color: #fc5d36;
+	text-decoration: none;
+	font-size: 1rem;
+	margin: 0.5rem;
+}
+
+.project-card a:hover {
+	color: #fff;
 }
 
 .contact-section {
