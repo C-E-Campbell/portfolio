@@ -1,6 +1,7 @@
 @media (max-width: 500px) {
 	header {
 		justify-content: space-around;
+		width: 100%;
 	}
 	.logo-link {
 		display: none;
