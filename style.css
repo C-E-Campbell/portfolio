@@ -131,8 +131,10 @@ header {
 	box-shadow: 5px 5px 5px rgba(32, 42, 49, 0.322);
 }
 .project-card h1 {
+	font-family: "Slabo 27px", serif;
 	font-size: 1.2rem;
 	color: #fc5d36;
+	text-shadow: 1px 1px 3px #000;
 }
 .project-card img {
 	width: 70%;
