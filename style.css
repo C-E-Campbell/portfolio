@@ -5,14 +5,8 @@ body {
 	margin: 0;
 	height: 100%;
 	width: 100vw;
-	background-image: linear-gradient(
-			rgba(18, 96, 102, 0.904),
-			rgba(21, 22, 22, 0.623)
-		),
-		url("./bg-min.jpg");
-	background-attachment: scroll;
-	background-size: cover;
-	background-position: center;
+	background-image: linear-gradient(rgba(3, 112, 94, 0.904), rgb(9, 51, 51));
+
 	font-family: "Open Sans", sans-serif;
 	font-size: 10px;
 }
@@ -123,7 +117,7 @@ header {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	background-color: rgba(39, 35, 35, 0.363);
+	background-color: rgba(39, 35, 35, 0.219);
 	height: 100%;
 	width: 30%;
 	text-align: center;
