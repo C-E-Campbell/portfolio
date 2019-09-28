@@ -3,7 +3,7 @@
 }
 body {
 	margin: 0;
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
 	background-image: linear-gradient(
 			rgba(18, 96, 102, 0.904),
@@ -15,7 +15,6 @@ body {
 	background-position: center;
 	font-family: "Open Sans", sans-serif;
 	font-size: 10px;
-	overflow: hidden;
 }
 
 header {
