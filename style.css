@@ -216,9 +216,3 @@ textarea {
 .email-section a:hover {
 	color: #fc5d36;
 }
-
-@media (max-width: 500px) {
-	body {
-		height: 100%;
-	}
-}
